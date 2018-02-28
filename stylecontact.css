@@ -1,0 +1,127 @@
+﻿.container {
+    font-family: 'Bellefair', serif;
+}
+
+div.col-2.fixed-top {
+    height: 100%;
+}
+
+div.col-2.fixed-top{
+    background: white;
+}
+div.col-9 {
+    background: #404040;
+    text-align: center;
+}
+
+
+div.col-10 {
+    text-align:center;
+    background-image: url('Images/pexels-photo-698478.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+p41{ /*Contact Me*/
+   
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 100px;
+}
+
+p42{ /*If you would like...*/
+    
+    color:white;
+    
+    font-size: large;
+}
+
+.main.contact-text{ /*media*/
+
+    margin:50px;
+    color: white;
+    font-size: xx-large;
+    height: 150px;
+    
+}
+
+i.fab.fa-linkedin-in::before{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+i.fab.fa-github::before{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+
+/*Form*/
+
+
+
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #dacbcb;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+    .feedback-input:focus {
+        border: 2px solid #dacbcb;
+    }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+ 
+    width: 100%;
+    background: #dacbcb;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+    [type="submit"]:hover {
+        background: #eee3e3;
+    }
+
+
+
+
+
+
+
+

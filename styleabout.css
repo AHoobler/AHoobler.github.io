@@ -1,0 +1,50 @@
+﻿
+
+img {
+    border: dotted;
+    margin: 50px;
+}
+
+
+
+p21 { /*hi*/
+      
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+p22 { /*junior dev*/
+    
+
+}
+
+p23 { /*my programming*/
+
+}
+
+p24 { /*list*/
+    
+    
+
+}
+
+p2a{ /*description*/
+
+
+}
+
+ div.main.main-photo {
+    text-align: center;
+}
+
+div.col-10 {
+    background-image: url('Images/paper.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+

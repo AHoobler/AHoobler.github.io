@@ -1,0 +1,162 @@
+﻿.container-fluid {
+
+    height: 100%;
+
+    font-family: 'Bellefair', serif;
+}
+
+/*social buttons*/
+::before {
+
+    font-size: x-large;
+
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+
+
+div.main.main-text {
+    text-align: center;
+}
+
+
+div.col-8 {
+    color: black;
+    background: #e5e5e5;
+}
+
+
+ul.navbar.flex-column {
+    text-align: left;
+}
+
+
+div.col-2 {
+    background: #e5e5e5;
+}
+
+    div.col-2.soclink {
+        background: #e5e5e5;
+        height: 450px;
+    }
+
+    div.col-2.fixed-top {
+        height: 480px;
+        text-align: center;
+        background: #e5e5e5;
+        height: 100%;
+    }
+
+div.col-3,
+div.col-1 {
+    background-image: url('Images/stone.jpg');
+    background-color: #e5e5e5;
+    
+}
+
+/*nav bar start*/
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.nbvyellow a {
+    width: 120px;
+    margin: 0;
+    color: #444;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    border-left: 2px solid #000000;
+    background-image: linear-gradient( #000000, #000000);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: all 400ms ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+}
+
+    li.nbvyellow a:hover {
+        background-size: 100% 100%;
+        color: white;
+    }
+
+li.nbvred a {
+    width: 120px;
+    margin: 0;
+    color: #444;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    border-left: 2px solid #e5e5e5;
+    background-image: linear-gradient( #e5e5e5, #e5e5e5);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: all 400ms ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+}
+
+    li.nbvred a:hover {
+        background-size: 100% 100%;
+        color: white;
+    }
+
+li.nbvgreen a {
+    width: 120px;
+    margin: 0;
+    color: #444;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    border-left: 2px solid #2d2d2d;
+    background-image: linear-gradient( #2d2d2d, #2d2d2d );
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: all 400ms ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+}
+
+    li.nbvgreen a:hover {
+        background-size: 100% 100%;
+        color: white;
+    }
+
+li.nbvblue a {
+    width: 120px;
+    margin: 0;
+    color: #444;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    border-left: 2px solid #404040;
+    background-image: linear-gradient( #404040, #404040 );
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: all 400ms ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+}
+
+    li.nbvblue a:hover {
+        background-size: 100% 100%;
+        color: white;
+    }
+/*nav bar end*/
+

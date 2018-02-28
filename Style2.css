@@ -1,0 +1,68 @@
+﻿.container {
+    font-family: 'Bellefair', serif;
+}
+
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+p11,
+p12 {/*type*/
+    font: bold 300% Consolas, Monaco, monospace;
+    border-right: .1em solid black;
+    width: 16.5em;
+    width: 21ch;
+    margin: 2em 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end), blink-caret .5s step-end infinite alternate;
+}
+
+p11 {
+    color: black;
+    align-self: center;
+    font-size: xx-large;
+    margin-left: 500px;
+}
+
+
+
+p12 {
+
+    
+    align-self: center;
+    color: black;
+    font-size: xx-large;   
+    /*float: right;*/   
+    /*margin-left: 500px;
+    margin-bottom: 400px*/  
+}
+
+
+
+div.col-10 {
+    background-image: url('Images/936945_10200573804660372_1657108061_n (2).jpg');
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+
+
+
+
