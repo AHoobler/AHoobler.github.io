@@ -1,5 +1,6 @@
 ﻿.container {
     font-family: 'Bellefair', serif;
+    color: white;
 }
 
 .grid-item.main {
@@ -27,7 +28,7 @@ div.col-10 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    height: 2000px;
 }
 
 
