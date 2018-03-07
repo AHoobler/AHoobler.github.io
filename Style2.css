@@ -1,55 +1,64 @@
 ﻿.container {
     font-family: 'Bellefair', serif;
+    display: flex;
 }
 
-@-webkit-keyframes typing {
+
+p {
+    
+    color: black;
+    font-family: "Courier";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end);
+    margin-top: 300px;
+    margin-left: 400px;
+}
+
+    p:nth-child(2) {
+        margin-top: 0;
+        animation: type2 4s steps(60, end);
+    }
+
+
+
+span {
+    animation: blink 1s infinite;
+}
+
+@keyframes type {
     from {
         width: 0;
     }
 }
 
-@-webkit-keyframes blink-caret {
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
     50% {
-        border-color: transparent;
+        width: 0;
+    }
+
+    100% {
+        width: 100;
     }
 }
 
-
-
-
-
-p11,
-p12 {/*type*/
-    font: bold 300% Consolas, Monaco, monospace;
-    border-right: .1em solid black;
-    width: 16.5em;
-    width: 21ch;
-    margin: 2em 1em;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 2s steps(21, end), blink-caret .5s step-end infinite alternate;
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
 }
 
-p11 {
-    color: black;
-    align-self: center;
-    font-size: xx-large;
-    margin-left: 500px;
+::selection {
+    background: black;
 }
-
-
-
-p12 {
-
-    
-    align-self: center;
-    color: black;
-    font-size: xx-large;   
-    /*float: right;*/   
-    /*margin-left: 500px;
-    margin-bottom: 400px*/  
-}
-
 
 
 div.col-10 {
@@ -62,7 +71,4 @@ div.col-10 {
     height: 1000px;
 }
 
-
-
-
-
+ 

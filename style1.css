@@ -5,6 +5,7 @@
     font-family: 'Bellefair', serif;
 }
 
+
 /*social buttons*/
 ::before {
 
@@ -33,18 +34,18 @@ ul.navbar.flex-column {
 
 
 div.col-2 {
-    background: #e5e5e5;
+    background: white;
 }
 
     div.col-2.soclink {
-        background: #e5e5e5;
+        background: white;
         height: 450px;
     }
 
     div.col-2.fixed-top {
         height: 480px;
         text-align: center;
-        background: #e5e5e5;
+        background: white;
         height: 100%;
     }
 
