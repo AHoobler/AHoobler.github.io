@@ -31,7 +31,9 @@ div.col-10 {
     height: 2000px;
 }
 
-
+.calendar {
+    background: rgba(255, 255, 255, 0.6);
+}
 
 div.frontCard{
     width: 600px;

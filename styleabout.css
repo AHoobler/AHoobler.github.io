@@ -15,23 +15,25 @@ p21 { /*hi*/
 }
 
 p22 { /*junior dev*/
-    
+    font-weight: bold;
+    font-size: large;
 
 }
 
 p23 { /*my programming*/
-
+      font-weight: bold;
+      font-size: large;
 }
 
 p24 { /*list*/
     
-    
-
+    font-weight: bold;
+    font-size: large;
 }
 
 p2a{ /*description*/
-
-
+     font-weight: bold;
+     font-size: large;
 }
 
  div.main.main-photo {
@@ -39,7 +41,7 @@ p2a{ /*description*/
 }
 
 div.col-10 {
-    background-image: url('Images/paper.jpeg');
+    background-image: url('Images/blur.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

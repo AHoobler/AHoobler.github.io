@@ -1,16 +1,12 @@
 ﻿.container-fluid {
-
     height: 100%;
-
     font-family: 'Bellefair', serif;
 }
 
 
 /*social buttons*/
 ::before {
-
     font-size: x-large;
-
     margin-left: 8px;
     text-decoration: none;
 }
@@ -29,7 +25,10 @@ div.col-8 {
 
 
 ul.navbar.flex-column {
+    display: flex;
     text-align: left;
+    align-content: flex-start;
+
 }
 
 
@@ -43,23 +42,33 @@ div.col-2 {
     }
 
     div.col-2.fixed-top {
-        height: 480px;
-        text-align: center;
+        height: 480px; 
         background: white;
         height: 100%;
+        text-align: left;
     }
 
 div.col-3,
 div.col-1 {
-    background-image: url('Images/stone.jpg');
-    background-color: #e5e5e5;
     
+    background-color: #e5e5e5;
 }
 
 /*nav bar start*/
 
 
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 
+    align-items: flex-start!important;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
 
 ul {
     list-style-type: none;
