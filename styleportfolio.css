@@ -1,5 +1,5 @@
 ﻿.container {
-    font-family: 'Bellefair', serif;
+    font-family: 'Gilda Display', serif;
     color: white;
 }
 
@@ -143,6 +143,11 @@ div.backCard{
     background-size: cover;
 }
 
+.mvccard {
+    background: url('Images/reviewrun.png') center center no-repeat content-box;
+    background-size: cover;
+}
+
 /*card back*/
 .invCard2 {
     background: url('Images/grumpydogcode.png') center center no-repeat content-box;
@@ -155,6 +160,11 @@ div.backCard{
 
 .directionsCard2 {
     background: url('Images/villacode.png') center center no-repeat content-box;
+    background-size: cover;
+}
+
+.mvccard2 {
+    background: url('Images/reviewcode.png') center center no-repeat content-box;
     background-size: cover;
 }
 
